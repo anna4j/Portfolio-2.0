@@ -2,8 +2,13 @@ import Head from "next/head"
 import Link from 'next/link'
 import Layout from '../components/Layout'
 import BannerLanding from '../components/BannerLanding'
+import SkillBar from '../components/SkillBar'
 
-
+const testData = [
+    { bgcolor: "#6a1b9a", completed: 60 },
+    { bgcolor: "#00695c", completed: 30 },
+    { bgcolor: "#ef6c00", completed: 53 },
+];
 export default () => (
 
 
@@ -49,6 +54,8 @@ export default () => (
                         </div>
                     </section>
 
+
+
                     <section>
                         <Link href="/generic">
                             <a className="image"><img src="/static/images/pic09.jpg" alt="" /></a>
@@ -56,12 +63,13 @@ export default () => (
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
-                                    <h3>My Projects</h3>
+                                    <h3>Skills and Interests</h3>
                                 </header>
-                                <p>These are a few projects that I've tinkered upon. I love learning Emerging Technologies and getting hands-on experience by coding and debugging. I am a firm believer of "Technology for a Cause" and hope to I build solutions that help people.</p>
-                                <ul className="actions">
-                                    <li><Link href="/generic"><a className="button">Learn more</a></Link></li>
-                                </ul>
+                                <div >
+                                    {testData.map((item, idx) => (
+                                        <SkillBar key={idx} bgcolor={item.bgcolor} completed={item.completed} />
+                                    ))}
+                                </div>
                             </div>
                         </div>
                     </section>

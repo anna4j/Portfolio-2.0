@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Layout from '../components/Layout'
 import ProjectLanding from '../components/ProjectLanding'
 
+
 export default () => (
     <Layout>
         <Head>
@@ -15,16 +16,7 @@ export default () => (
             <ProjectLanding />
 
             <div id="main">
-                <section id="one">
-                    <div className="inner">
-                        <header className="major">
-                            <h2>Highlights</h2>
-                        </header>
-                        <p>- Won the First Prize at Smart India Hackathon 2020 Software Edition</p>
-                        <p>- Recipient of the Google APAC Women Techmakers Scholarship 2020</p>
 
-                    </div>
-                </section>
                 <section id="two" className="spotlights">
                     <section>
                         <Link href="">
