@@ -4,12 +4,21 @@ import Layout from '../components/Layout'
 import BannerLanding from '../components/BannerLanding'
 import SkillBar from '../components/SkillBar'
 
+
 const testData = [
-    { bgcolor: "#6a1b9a", completed: 60 },
-    { bgcolor: "#00695c", completed: 30 },
-    { bgcolor: "#ef6c00", completed: 53 },
+    { bgcolor: "#ff3d8f", completed: 80, text: "Data Structures and Algorithms in C++" },
+    { bgcolor: "#ff006c", completed: 85, text: "Git/GitHub" },
+    { bgcolor: "#b80450", completed: 85, text: "HTML5, CSS3, BootStrap" },
+    { bgcolor: "#ff3d8f", completed: 70, text: "JavaScript (ES6)" },
+    { bgcolor: "#ff006c", completed: 65, text: "React.js" },
+    { bgcolor: "#b80450", completed: 85, text: "Node.js" },
+    { bgcolor: "#ff3d8f", completed: 60, text: "MongoDB" },
+
 ];
+
+
 export default () => (
+
 
 
     <Layout>
@@ -58,7 +67,7 @@ export default () => (
 
                     <section>
                         <Link href="/generic">
-                            <a className="image"><img src="/static/images/pic09.jpg" alt="" /></a>
+                            <a className="image"><img src="/static/images/pic06.jpg" alt="" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
@@ -67,9 +76,12 @@ export default () => (
                                 </header>
                                 <div >
                                     {testData.map((item, idx) => (
-                                        <SkillBar key={idx} bgcolor={item.bgcolor} completed={item.completed} />
+                                        <SkillBar key={idx} bgcolor={item.bgcolor} completed={item.completed} text={item.text} />
                                     ))}
                                 </div>
+                                <br />
+                                <br />
+
                             </div>
                         </div>
                     </section>

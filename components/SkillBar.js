@@ -1,14 +1,15 @@
 import React from "react";
 
 const SkillBar = (props) => {
-    const { bgcolor, completed } = props;
+    const { bgcolor, completed, text } = props;
 
     const containerStyles = {
-        height: 20,
+        height: 30,
         width: '70%',
         backgroundColor: "#e0e0de",
-        borderRadius: 50,
-        margin: 50
+        marginTop: 40,
+        marginBottom: 40,
+
     }
 
     const fillerStyles = {
@@ -16,7 +17,10 @@ const SkillBar = (props) => {
         width: `${completed}%`,
         backgroundColor: bgcolor,
         borderRadius: 'inherit',
-        textAlign: 'right'
+        textAlign: 'right',
+        transition: 'width 1s ease-in-out',
+
+
     }
 
     const labelStyles = {
@@ -27,8 +31,9 @@ const SkillBar = (props) => {
 
     return (
         <div style={containerStyles}>
+
             <div style={fillerStyles}>
-                <span style={labelStyles}>{`${completed}%`}</span>
+                <span style={labelStyles}>{`${text}`}</span>
             </div>
         </div>
     );

@@ -11,7 +11,7 @@ const Footer = (props) => (
                     <li><a href="#" className="icon alt fa-instagram"><span className="label">Instagram</span></a></li>
                     <br />
                     <br />
-                    <li>&copy; 2020</li><li>Anushka Jadhav🌻<a href="#"></a></li>
+                    <li>&copy; 2020</li><li>Anushka Jadhav 🍋<a href="#"></a></li>
 
                 </ul>
 

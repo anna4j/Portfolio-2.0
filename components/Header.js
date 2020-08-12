@@ -2,6 +2,7 @@ import PropTypes from 'prop-types'
 import Link from 'next/link'
 
 const Header = (props) => (
+
     <header id="header" className="alt">
         <Link href="/">
             <a className="logo"><strong>Dreamer</strong></a>
@@ -11,6 +12,7 @@ const Header = (props) => (
         </nav>
     </header>
 )
+
 
 Header.propTypes = {
     onToggleMenu: PropTypes.func

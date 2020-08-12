@@ -48,8 +48,10 @@ export default () => (
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
-                                    <h4>Impact – To improve current condition of Indian Farmers
-                                        </h4></header>
+                                    <h3>Krishi Sahayta Application</h3>
+                                </header>
+                                <h4>Impact – To improve current condition of Indian Farmers
+                                        </h4>
                                 <p> Impactful for Government officials to prepare a proper procurement plan and manage ground-level logistics duringharvesting season.</p>
 
                                 <p> Can improve Food Security and help prevent Famine in India.</p>
