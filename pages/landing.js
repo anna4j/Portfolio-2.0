@@ -6,13 +6,13 @@ import SkillBar from '../components/SkillBar'
 
 
 const testData = [
-    { bgcolor: "#ff3d8f", completed: 80, text: "Data Structures and Algorithms in C++" },
-    { bgcolor: "#ff006c", completed: 85, text: "Git/GitHub" },
-    { bgcolor: "#b80450", completed: 85, text: "HTML5, CSS3, BootStrap" },
-    { bgcolor: "#ff3d8f", completed: 70, text: "JavaScript (ES6)" },
-    { bgcolor: "#ff006c", completed: 65, text: "React.js" },
-    { bgcolor: "#b80450", completed: 85, text: "Node.js" },
-    { bgcolor: "#ff3d8f", completed: 60, text: "MongoDB" },
+    { bgcolor: "#cfa4ed", completed: 80, text: "Data Structures and Algorithms in C++" },
+    { bgcolor: "#aa6bd6", completed: 85, text: "Git/GitHub" },
+    { bgcolor: "#8035b5", completed: 85, text: "HTML5, CSS3, BootStrap" },
+    { bgcolor: "#cfa4ed", completed: 70, text: "JavaScript (ES6)" },
+    { bgcolor: "#aa6bd6", completed: 65, text: "React.js" },
+    { bgcolor: "#8035b5", completed: 85, text: "Node.js" },
+    { bgcolor: "#cfa4ed", completed: 60, text: "MongoDB" },
 
 ];
 
@@ -40,6 +40,7 @@ export default () => (
                         </header>
                         <p>- Won the First Prize at Smart India Hackathon 2020 Software Edition</p>
                         <p>- Recipient of the Google APAC Women Techmakers Scholarship 2020</p>
+                        <p>- Open Source Contributor at AnitaB.Org</p>
 
                     </div>
                 </section>
@@ -57,7 +58,10 @@ export default () => (
                                 </header>
                                 <p>I'm a MERN Stack Developer from New Delhi, India. I have previously worked with the GirlScript Foundation as a Web Developer and Project Manager. I am an Open Source Contributor at AnitaB.Org Open Source on their React-Native and Python Projects. I have also worked in the Machine Learning domain as an Intern at Predikly Technologies, Pune.</p>
                                 <ul className="actions">
-                                    <li><Link href="https://drive.google.com/file/d/1gunvU74IUDkg0LL8Te7JmFGWyEIug-_2/view?usp=sharing"><a target="_blank" className="button">My Résumé</a></Link></li>
+                                    <li><Link href="https://drive.google.com/file/d/1gunvU74IUDkg0LL8Te7JmFGWyEIug-_2/view?usp=sharing"><a target="_blank" className="button">My Résumé  </a></Link></li>
+                                </ul>
+                                <ul className="actions">
+                                    <li><Link href="/generic"><a className="button">My Projects</a></Link></li>
                                 </ul>
                             </div>
                         </div>
