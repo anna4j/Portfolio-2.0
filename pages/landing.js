@@ -1,10 +1,12 @@
 import Head from "next/head"
 import Link from 'next/link'
-
 import Layout from '../components/Layout'
 import BannerLanding from '../components/BannerLanding'
 
+
 export default () => (
+
+
     <Layout>
         <Head>
             <title>Landing Page</title>
@@ -15,6 +17,8 @@ export default () => (
             <BannerLanding />
 
             <div id="main">
+
+
                 <section id="one">
                     <div className="inner">
                         <header className="major">
@@ -25,7 +29,9 @@ export default () => (
 
                     </div>
                 </section>
+
                 <section id="two" className="spotlights">
+
                     <section>
                         <Link href="">
                             <a className="image"><img src="/static/images/pic08.jpg" alt="" /></a>
@@ -42,6 +48,7 @@ export default () => (
                             </div>
                         </div>
                     </section>
+
                     <section>
                         <Link href="/generic">
                             <a className="image"><img src="/static/images/pic09.jpg" alt="" /></a>

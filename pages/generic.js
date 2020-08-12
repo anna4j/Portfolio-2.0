@@ -28,16 +28,23 @@ export default () => (
                 <section id="two" className="spotlights">
                     <section>
                         <Link href="">
-                            <a className="image"><img src="/static/images/pic08.jpg" alt="" /></a>
+                            <a className="image"><img src="/static/images/pic10.jpg" alt="" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
-                                    <h3>All things Professional</h3>
+                                    <h3>Farm Aid Application</h3>
                                 </header>
-                                <p>I'm a MERN Stack Developer from New Delhi, India. I have previously worked with the GirlScript Foundation as a Web Developer and Project Manager. I am an Open Source Contributor at AnitaB.Org Open Source on their React-Native and Python Projects. I have also worked in the Machine Learning domain as an Intern at Predikly Technologies, Pune.</p>
+                                <h4>Technology Stack</h4>
+
+                                <p> Uses ARIMA Time Series Forecasting to predict district wise Crop Yield in advance, for major produced crops in India.</p>
+                                <p> Remote sensing NDVI data available for various Indian Districts was used for model-training. Attained MSE less than 0.2</p>
+                                <p> Uses Android for User-Interface and Flask for Model API deployment. API hosted on Azure platform.</p>
+                                <p> Uses DialogFlow chatbot by Google Cloud for answering user queries.</p>
+
+
                                 <ul className="actions">
-                                    <li><Link href="https://drive.google.com/file/d/1gunvU74IUDkg0LL8Te7JmFGWyEIug-_2/view?usp=sharing"><a target="_blank" className="button">My Résumé</a></Link></li>
+                                    <li><Link href="https://docs.google.com/presentation/d/1f2-bG_s6g5MnjcBrruXQkoc5zLp4T6DfQV6S4CrUZJM/edit?usp=sharing"><a target="_blank" className="button">Learn More</a></Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -49,11 +56,13 @@ export default () => (
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
-                                    <h3>My Projects</h3>
-                                </header>
-                                <p>These are a few projects that I've tinkered upon. I love learning Emerging Technologies and getting hands-on experience by coding and debugging. I am a firm believer of "Technology for a Cause" and hope to I build solutions that help people.</p>
+                                    <h4>Impact – To improve current condition of Indian Farmers
+                                        </h4></header>
+                                <p> Impactful for Government officials to prepare a proper procurement plan and manage ground-level logistics duringharvesting season.</p>
+
+                                <p> Can improve Food Security and help prevent Famine in India.</p>
                                 <ul className="actions">
-                                    <li><Link href="/generic"><a className="button">Learn more</a></Link></li>
+                                    <li><Link href="https://docs.google.com/presentation/d/1f2-bG_s6g5MnjcBrruXQkoc5zLp4T6DfQV6S4CrUZJM/edit?usp=sharing"><a target="_blank" className="button">Learn More</a></Link></li>
                                 </ul>
                             </div>
                         </div>
