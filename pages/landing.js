@@ -18,24 +18,26 @@ export default () => (
                 <section id="one">
                     <div className="inner">
                         <header className="major">
-                            <h2>Sed amet aliquam</h2>
+                            <h2>Highlights</h2>
                         </header>
-                        <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+                        <p>- Won the First Prize at Smart India Hackathon 2020 Software Edition</p>
+                        <p>- Recipient of the Google APAC Women Techmakers Scholarship 2020</p>
+
                     </div>
                 </section>
                 <section id="two" className="spotlights">
                     <section>
-                        <Link href="/generic">
+                        <Link href="">
                             <a className="image"><img src="/static/images/pic08.jpg" alt="" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
-                                    <h3>Orci maecenas</h3>
+                                    <h3>All things Professional</h3>
                                 </header>
-                                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                                <p>I'm a MERN Stack Developer from New Delhi, India. I have previously worked with the GirlScript Foundation as a Web Developer and Project Manager. I am an Open Source Contributor at AnitaB.Org Open Source on their React-Native and Python Projects. I have also worked in the Machine Learning domain as an Intern at Predikly Technologies, Pune.</p>
                                 <ul className="actions">
-                                    <li><Link href="/generic"><a className="button">Learn more</a></Link></li>
+                                    <li><Link href="https://drive.google.com/file/d/1gunvU74IUDkg0LL8Te7JmFGWyEIug-_2/view?usp=sharing"><a target="_blank" className="button">My Résumé</a></Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -47,25 +49,9 @@ export default () => (
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
-                                    <h3>Rhoncus magna</h3>
+                                    <h3>My Projects</h3>
                                 </header>
-                                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                                <ul className="actions">
-                                    <li><Link href="/generic"><a className="button">Learn more</a></Link></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <Link href="/generic">
-                            <a className="image"><img src="/static/images/pic10.jpg" alt="" /></a>
-                        </Link>
-                        <div className="content">
-                            <div className="inner">
-                                <header className="major">
-                                    <h3>Sed nunc ligula</h3>
-                                </header>
-                                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                                <p>These are a few projects that I've tinkered upon. I love learning Emerging Technologies and getting hands-on experience by coding and debugging. I am a firm believer of "Technology for a Cause" and hope to I build solutions that help people.</p>
                                 <ul className="actions">
                                     <li><Link href="/generic"><a className="button">Learn more</a></Link></li>
                                 </ul>

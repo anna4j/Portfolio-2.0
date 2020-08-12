@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import Link from 'next/link'
-import Form from './Form'
 
 const Contact = (props) => (
 
@@ -14,7 +13,7 @@ const Contact = (props) => (
                 <p>I'm looking for opportunities to colabborate on! Especially Machine Learning problems and Web Development projects. </p>
                 <nav>
                     <ul className="actions">
-                        <li> <a href="" className="button next scrolly">Get in Touch</a></li>
+                        <li> <a href="mailto:anushkajadhav004@gmail.com" className="button next scrolly">Get in Touch</a></li>
                     </ul>
                 </nav>
 

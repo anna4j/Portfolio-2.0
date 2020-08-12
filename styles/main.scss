@@ -3,11 +3,7 @@
 @import 'libs/mixins';
 @import 'libs/skel';
 
-/*
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 	@include skel-breakpoints((
 		xlarge: '(max-width: 1680px)',
@@ -21,15 +17,7 @@
 	@include skel-layout((
 		reset: 'full',
 		boxModel: 'border',
-		// grid: ( gutters: 2em ),
-		// breakpoints: (
-		// 	large: (
-		// 		grid: ( gutters: 1.5em )
-		// 	),
-		// 	small: (
-		// 		grid: ( gutters: 1.25em )
-		// 	)
-		// )
+		
 	));
 
 	@mixin inner {

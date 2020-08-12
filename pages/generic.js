@@ -1,26 +1,66 @@
 import Head from "next/head"
+import Link from 'next/link'
 
 import Layout from '../components/Layout'
+import ProjectLanding from '../components/ProjectLanding'
 
 export default () => (
     <Layout>
         <Head>
-            <title>Generic Page</title>
-            <meta name="description" content="Generic Page" />
+            <title>Projects</title>
+            <meta name="description" content="Projects" />
         </Head>
 
-        <div id="main" className="alt">
-            <section id="one">
-                <div className="inner">
-                    <header className="major">
-                        <h1>Generic</h1>
-                    </header>
-                    <span className="image main"><img src="/static/images/pic11.jpg" alt="" /></span>
-                    <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-                    <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
-                </div>
-            </section>
+        <div>
+            <ProjectLanding />
+
+            <div id="main">
+                <section id="one">
+                    <div className="inner">
+                        <header className="major">
+                            <h2>Highlights</h2>
+                        </header>
+                        <p>- Won the First Prize at Smart India Hackathon 2020 Software Edition</p>
+                        <p>- Recipient of the Google APAC Women Techmakers Scholarship 2020</p>
+
+                    </div>
+                </section>
+                <section id="two" className="spotlights">
+                    <section>
+                        <Link href="">
+                            <a className="image"><img src="/static/images/pic08.jpg" alt="" /></a>
+                        </Link>
+                        <div className="content">
+                            <div className="inner">
+                                <header className="major">
+                                    <h3>All things Professional</h3>
+                                </header>
+                                <p>I'm a MERN Stack Developer from New Delhi, India. I have previously worked with the GirlScript Foundation as a Web Developer and Project Manager. I am an Open Source Contributor at AnitaB.Org Open Source on their React-Native and Python Projects. I have also worked in the Machine Learning domain as an Intern at Predikly Technologies, Pune.</p>
+                                <ul className="actions">
+                                    <li><Link href="https://drive.google.com/file/d/1gunvU74IUDkg0LL8Te7JmFGWyEIug-_2/view?usp=sharing"><a target="_blank" className="button">My Résumé</a></Link></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <Link href="/generic">
+                            <a className="image"><img src="/static/images/pic09.jpg" alt="" /></a>
+                        </Link>
+                        <div className="content">
+                            <div className="inner">
+                                <header className="major">
+                                    <h3>My Projects</h3>
+                                </header>
+                                <p>These are a few projects that I've tinkered upon. I love learning Emerging Technologies and getting hands-on experience by coding and debugging. I am a firm believer of "Technology for a Cause" and hope to I build solutions that help people.</p>
+                                <ul className="actions">
+                                    <li><Link href="/generic"><a className="button">Learn more</a></Link></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+            </div>
+
         </div>
     </Layout>
 )
