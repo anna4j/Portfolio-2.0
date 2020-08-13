@@ -19,7 +19,7 @@ const SkillBar = (props) => {
         width: `${completed}%`,
         backgroundColor: bgcolor,
         borderRadius: 'inherit',
-        textAlign: 'right',
+        textAlign: 'left',
         transition: 'width 1s ease-in-out',
 
 
@@ -27,6 +27,7 @@ const SkillBar = (props) => {
 
     const labelStyles = {
         padding: 5,
+        paddingLeft: 10,
         color: 'white',
         fontWeight: 'bold'
     }

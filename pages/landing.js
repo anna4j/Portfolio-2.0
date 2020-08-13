@@ -5,18 +5,17 @@ import BannerLanding from '../components/BannerLanding'
 import SkillBar from '../components/SkillBar'
 
 
-
-
 const testData = [
-    { bgcolor: "#8035b5", completed: 80, text: "Data Structures and Algorithms in C++" },
-    { bgcolor: "#aa6bd6", completed: 85, text: "Git/GitHub" },
-    { bgcolor: "#8035b5", completed: 85, text: "HTML5, CSS3, BootStrap" },
-    { bgcolor: "#aa6bd6", completed: 70, text: "JavaScript (ES6)" },
-    { bgcolor: "#8035b5", completed: 65, text: "React.js" },
-    { bgcolor: "#aa6bd6", completed: 85, text: "Node.js" },
-    { bgcolor: "#8035b5", completed: 60, text: "MongoDB" },
+    { bgcolor: "#ff9575", completed: 80, text: "Data Structures and Algorithms in C++" },
+    { bgcolor: "#fa9b9b", completed: 85, text: "Git/GitHub" },
+    { bgcolor: "#ff9575", completed: 85, text: "HTML5, CSS3, BootStrap4" },
+    { bgcolor: "#fa9b9b", completed: 75, text: "JavaScript (ES6)" },
+    { bgcolor: "#ff9575", completed: 72, text: "React" },
+    { bgcolor: "#fa9b9b", completed: 70, text: "Node.js and MongoDB" },
+    { bgcolor: "#ff9575", completed: 60, text: "Machine Learning with Python" },
 
 ];
+
 
 
 export default () => (
@@ -37,10 +36,12 @@ export default () => (
                         <header className="major">
                             <h2>Highlights</h2>
                         </header>
-                        <p>- Won the First Prize at Smart India Hackathon 2020 Software Edition</p>
-                        <p>- Recipient of the Google APAC Women Techmakers Scholarship 2020</p>
-                        <p>- Open Source Contributor at AnitaB.Org</p>
-
+                        <p>- Won the First Prize at Smart India Hackathon 2020 Software Edition
+                            <br />
+                        - Recipient of the Google APAC Women Techmakers Scholarship 2020
+                        <br />
+                        - Open Source Contributor at AnitaB.Org
+                        </p>
                     </div>
                 </section>
 
