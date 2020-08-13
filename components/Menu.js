@@ -8,7 +8,7 @@ const Menu = (props) => (
                 <li><Link href="/"><a><span onClick={props.onToggleMenu}>Home</span></a></Link></li>
                 <li><Link href="/landing"><a><span onClick={props.onToggleMenu}>About Me</span></a></Link></li>
                 <li><Link href="/generic"><a><span onClick={props.onToggleMenu}>Projects</span></a></Link></li>
-                <li><Link href="https://medium.com/@AnushkaJadhav"><a target="_blank"><span onClick={props.onToggleMenu}>My Blogs</span></a></Link></li>
+                <li><Link href="https://medium.com/@AnushkaJadhav"><a target="_blank"><span onClick={props.onToggleMenu}> My Blogs</span></a></Link></li>
                 <li><Link href="mailto:anushkajadhav004@gmail.com"><a><span onClick={props.onToggleMenu}>Contact</span></a></Link></li>
             </ul>
 

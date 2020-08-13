@@ -41,3 +41,8 @@ const SkillBar = (props) => {
 
 
 export default SkillBar;
+
+
+
+
+

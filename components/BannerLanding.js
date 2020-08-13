@@ -9,7 +9,7 @@ const BannerLanding = (props) => (
                 <br />
                     <br />
 
-                I love learning Emerging Technologies and getting hands-on experience by coding and debugging. I am a firm believer of "Technology for a Cause" and hope to I build solutions that help people
+                I love learning Emerging Technologies and getting hands-on experience by coding and debugging. I am a firm believer of "Technology for a Cause" and hope to build solutions that help people.
                 </p>
             </div>
         </div>

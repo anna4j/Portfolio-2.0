@@ -5,6 +5,8 @@ import BannerLanding from '../components/BannerLanding'
 import SkillBar from '../components/SkillBar'
 
 
+
+
 const testData = [
     { bgcolor: "#cfa4ed", completed: 80, text: "Data Structures and Algorithms in C++" },
     { bgcolor: "#aa6bd6", completed: 85, text: "Git/GitHub" },
@@ -80,9 +82,12 @@ export default () => (
                                 </header>
                                 <div >
                                     {testData.map((item, idx) => (
-                                        <SkillBar key={idx} bgcolor={item.bgcolor} completed={item.completed} text={item.text} />
+                                        <SkillBar key={idx} bgcolor={item.bgcolor} completed={item.completed} text={item.text}
+                                        />
                                     ))}
                                 </div>
+
+
                                 <br />
                                 <br />
 
