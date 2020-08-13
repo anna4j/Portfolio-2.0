@@ -12,7 +12,6 @@ const Footer = (props) => (
                     <br />
                     <br />
                     <li>&copy; 2020</li><li>Anushka Jadhav 🍋<a href="#"></a></li>
-
                 </ul>
 
                 <section className="split">
