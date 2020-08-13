@@ -15,7 +15,6 @@ const Contact = (props) => (
                         <li> <a href="mailto:anushkajadhav004@gmail.com" className="button next scrolly">Get in Touch</a></li>
                     </ul>
                 </nav>
-
             </div>
         </div>
     </section>

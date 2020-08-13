@@ -21,8 +21,6 @@ const testData = [
 
 export default () => (
 
-
-
     <Layout>
         <Head>
             <title>Landing Page</title>
@@ -33,7 +31,6 @@ export default () => (
             <BannerLanding />
 
             <div id="main">
-
 
                 <section id="one">
                     <div className="inner">
@@ -70,8 +67,6 @@ export default () => (
                         </div>
                     </section>
 
-
-
                     <section>
                         <Link href="/generic">
                             <a className="image"><img src="/static/images/pic06.jpg" alt="" /></a>
@@ -87,17 +82,13 @@ export default () => (
                                         />
                                     ))}
                                 </div>
-
-
                                 <br />
                                 <br />
-
                             </div>
                         </div>
                     </section>
                 </section>
             </div>
-
         </div>
     </Layout>
 )

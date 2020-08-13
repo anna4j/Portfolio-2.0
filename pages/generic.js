@@ -63,7 +63,6 @@ export default () => (
                     </section>
                 </section>
             </div>
-
         </div>
     </Layout>
 )

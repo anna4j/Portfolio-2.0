@@ -33,7 +33,6 @@ const SkillBar = (props) => {
 
     return (
         <div style={containerStyles}>
-
             <div style={fillerStyles}>
                 <span style={labelStyles}>{`${text}`}</span>
             </div>

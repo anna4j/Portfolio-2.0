@@ -1,4 +1,5 @@
 const Footer = (props) => (
+
     <footer id="footer">
         <section id="contact">
             <div className="inner">
@@ -25,14 +26,12 @@ const Footer = (props) => (
                             <a target="_blank" href="https://wa.me/918800889378/?text=Hi%20Anushka!%20"><span className="icon alt fa-phone"></span>(+91) 8800889378</a>
                             <br />
                             <a target="_blank" href="https://wa.me/918800889378/?text=Hi%20Anushka!%20">(Click to open WA chat)</a>
+
                         </div>
                     </section>
                 </section>
-
-
             </div>
         </section>
-
     </footer>
 
 )

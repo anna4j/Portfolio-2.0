@@ -8,7 +8,6 @@ const BannerLanding = (props) => (
                 <p>Welcome to my story! I have mentioned some interesting things about my work and my journey as a developer here.
                 <br />
                     <br />
-
                 I love learning Emerging Technologies and getting hands-on experience by coding and debugging. I am a firm believer of "Technology for a Cause" and hope to build solutions that help people.
                 </p>
             </div>
