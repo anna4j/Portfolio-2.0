@@ -8,13 +8,13 @@ import SkillBar from '../components/SkillBar'
 
 
 const testData = [
-    { bgcolor: "#cfa4ed", completed: 80, text: "Data Structures and Algorithms in C++" },
+    { bgcolor: "#8035b5", completed: 80, text: "Data Structures and Algorithms in C++" },
     { bgcolor: "#aa6bd6", completed: 85, text: "Git/GitHub" },
     { bgcolor: "#8035b5", completed: 85, text: "HTML5, CSS3, BootStrap" },
-    { bgcolor: "#cfa4ed", completed: 70, text: "JavaScript (ES6)" },
-    { bgcolor: "#aa6bd6", completed: 65, text: "React.js" },
-    { bgcolor: "#8035b5", completed: 85, text: "Node.js" },
-    { bgcolor: "#cfa4ed", completed: 60, text: "MongoDB" },
+    { bgcolor: "#aa6bd6", completed: 70, text: "JavaScript (ES6)" },
+    { bgcolor: "#8035b5", completed: 65, text: "React.js" },
+    { bgcolor: "#aa6bd6", completed: 85, text: "Node.js" },
+    { bgcolor: "#8035b5", completed: 60, text: "MongoDB" },
 
 ];
 
@@ -59,6 +59,7 @@ export default () => (
                                     <h3>All things Professional</h3>
                                 </header>
                                 <p>I'm a MERN Stack Developer from New Delhi, India. I have previously worked with the GirlScript Foundation as a Web Developer and Project Manager. I am an Open Source Contributor at AnitaB.Org Open Source on their React-Native and Python Projects. I have also worked in the Machine Learning domain as an Intern at Predikly Technologies, Pune.</p>
+                                <p>I'm also fluent in German!</p>
                                 <ul className="actions">
                                     <li><Link href="https://drive.google.com/file/d/1gunvU74IUDkg0LL8Te7JmFGWyEIug-_2/view?usp=sharing"><a target="_blank" className="button">My Résumé  </a></Link></li>
                                 </ul>

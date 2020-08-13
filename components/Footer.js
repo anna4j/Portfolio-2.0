@@ -19,7 +19,7 @@ const Footer = (props) => (
 
                     <section>
                         <div className="contact-method">
-                            <a href="mailto:anushkajadhav004@gmail.com"><span className="icon alt fa-envelope"></span> anushkajadhav004@gmail.com</a>
+                            <a href="mailto:anushkajadhav004@gmail.com"><span className="label" className="icon alt fa-envelope"></span> anushkajadhav004@gmail.com</a>
                         </div>
                         <div className="contact-method">
 

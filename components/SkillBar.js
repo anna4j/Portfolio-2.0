@@ -6,9 +6,11 @@ const SkillBar = (props) => {
     const containerStyles = {
         height: 30,
         width: '100%',
-        backgroundColor: "#e0e0de",
+        backgroundColor: "#948c8b",
         marginTop: 40,
         marginBottom: 40,
+        borderRadius: 3,
+
 
     }
 
