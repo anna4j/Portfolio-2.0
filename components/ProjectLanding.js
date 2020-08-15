@@ -2,7 +2,7 @@ const ProjectLanding = (props) => (
     <section id="banner" className="style2">
         <div className="inner">
             <header className="major">
-                <h1>Transforming my Thougts into Reality!</h1>
+                <h1>Transforming my Thoughts into Reality!</h1>
             </header>
             <div className="content">
                 <p>These are a few projects that I've tinkered upon.

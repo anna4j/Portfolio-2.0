@@ -40,7 +40,7 @@ export default () => (
                             <br />
                         - Recipient of the Google APAC Women Techmakers Scholarship 2020
                         <br />
-                        - Open Source Contributor at AnitaB.Org
+                        - Open Source Hack Mentor, and Contributor at AnitaB.Org Open Source
                         </p>
                     </div>
                 </section>
